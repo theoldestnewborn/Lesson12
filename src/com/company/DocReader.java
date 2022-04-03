@@ -17,7 +17,6 @@ public class DocReader {
     }
 
     String path;
-
     public String pathFinder() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Укажите имя файла в корневом каталоге");

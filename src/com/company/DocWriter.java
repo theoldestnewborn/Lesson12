@@ -29,7 +29,6 @@ public class DocWriter {
 
         try (PrintWriter pw1 = new PrintWriter(newFileNameDocs + ".txt");
              PrintWriter pw2 = new PrintWriter(newFileNameOther + ".txt")) {
-
             for (int i = 0; i < strings.length; i++) {
                 if (strings[i].toCharArray().length == 15
                         && (strings[i].startsWith("docnum")
