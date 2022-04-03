@@ -3,7 +3,6 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-
         DocReader file1 = new DocReader();
         DocWriter file2 = new DocWriter();
         file1.pathFinder();
